@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Card</title>
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Cards</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="cards__container">
+      <h1 class="container__title"></h1>
+      <article class="card__wrapper">
+        <div class="card__bg-header">
+          <div class="user__photo_wrapper">
+            <img class="user__photo" src="./assets/images/photo_user.jpg" alt="User Photo" />
+          </div>
+          <h2 class="user__fullname">John Addison</h2>
+          <address><img class="map__icon" src="./assets/icons/map-marker.png" alt="">New Jersey, USA.</address>
+          <div class="btn__wrapper">
+            <button class="btn">Follow</button>
+            <button class="btn">Send Message</button>
+          </div>
+          <p class="user__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, aliquid?</p>
+        </div>
+        <div class="card__content"></div>
+        <footer class="card__footer">
+          <a class="card__footer__link facebook" href=""></a>
+          <a class="card__footer__link google" href=""></a>
+          <a class="card__footer__link twiter" href=""></a>
+        </footer>
+      </article>
+    </section>
+  </body>
 </html>
